@@ -1,2 +1,2 @@
-DELETE * Product
-WHERE id = $1;
+DELETE FROM Hero
+WHERE heroId = $1;
